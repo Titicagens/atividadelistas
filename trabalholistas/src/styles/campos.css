@@ -1,0 +1,111 @@
+.orcamento {
+    color: black;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+
+.orcamento0-header h1 {
+        color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.orcamento-form h2 {
+        color: black;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.orcamento-form form {
+    
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.form-campo {
+        color: black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.form-campo input {
+    
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-botao {
+        color: black;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.form-botao:hover {
+    background-color: #218838;
+}
+
+.tabela-itens {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-itens th,
+.tabela-itens td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela-itens th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.tabela-acao button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.tabela-acao button:hover {
+    background-color: #c82333;
+}
+
+.orcamento-footer {
+    
+    margin-top: 20px;
+    background-color: #e6f9e6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.total-geral {
+    color: black;
+    font-weight: bold;
+    text-align: right;
+    margin: 0;
+}
