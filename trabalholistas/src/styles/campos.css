@@ -3,7 +3,7 @@
     max-width: 700px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: hsl(277, 79%, 42%);
     border-radius: 10px;
     box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
     font-family: Arial, sans-serif;
@@ -11,7 +11,7 @@
 
 
 .orcamento0-header h1 {
-        color: black;
+        color: rgb(0, 0, 0);
     text-align: center;
     margin-bottom: 20px;
 }
@@ -41,14 +41,14 @@
 .form-campo input {
     
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #848484;
     border-radius: 5px;
     font-size: 14px;
 }
 
 .form-botao {
         color: black;
-    background-color: #28a745;
+    background-color: #0cc036;
     color: white;
     border: none;
     padding: 8px 15px;
@@ -61,7 +61,7 @@
 }
 
 .form-botao:hover {
-    background-color: #218838;
+    background-color: #0b9a2a;
 }
 
 .tabela-itens {
@@ -76,13 +76,14 @@
     text-align: center;
 }
 
-.tabela-itens th {
-    background-color: #f4f4f4;
+.tabela-itens th,
+.tabela-linha {
+    background-color: #909d90;
     font-weight: bold;
 }
 
 .tabela-acao button {
-    background-color: #dc3545;
+    background-color: #f31329;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -92,13 +93,13 @@
 }
 
 .tabela-acao button:hover {
-    background-color: #c82333;
+    background-color: #ff0019;
 }
 
 .orcamento-footer {
     
     margin-top: 20px;
-    background-color: #e6f9e6;
+    background-color: #909d90;
     padding: 10px;
     border-radius: 5px;
 }
@@ -109,3 +110,4 @@
     text-align: right;
     margin: 0;
 }
+

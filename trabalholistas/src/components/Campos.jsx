@@ -69,7 +69,7 @@ export default function Campos() {
               value={valorUN}
               onChange={(e) => setValorUN(Number(e.target.value))}
               type="number"
-              step="0.01"
+              step=""
               name="valorUnitario"
             />
           </label>
